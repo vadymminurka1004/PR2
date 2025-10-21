@@ -1,0 +1,28 @@
+﻿// Lab_02.cpp
+// Мінурка Вадим
+// Лабораторна робота № 2.1
+// Лінійні програми
+// Варіант 17
+
+#include <iostream>
+#include <cmath>  
+using namespace std;
+
+int main()
+{
+    double m;   // вхідний параметр
+    double z1;  // результат обчислення першого виразу
+    double z2;  // результат обчислення другого виразу
+
+    cout << "m = ";
+    cin >> m;
+    z1 = abs(3 * m - 2) / (3 * sqrt(m) - 2 / sqrt(m));
+    z2 = sqrt(m);
+
+    cout << endl;
+    cout << "z1 = " << z1 << endl;
+    cout << "z2 = " << z2 << endl;
+
+    cin.get();
+    return 0;
+}
