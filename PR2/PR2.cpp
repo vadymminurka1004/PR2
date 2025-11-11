@@ -2,7 +2,7 @@
 // Мінурка Вадим
 // Лабораторна робота № 2.1
 // Лінійні програми
-// Варіант 17
+// Варіант 177
 
 #include <iostream>
 #include <cmath>  
@@ -17,7 +17,7 @@ int main()
     cout << "m = ";
     cin >> m;
     z1 = sqrt(pow(3 * m + 2, 2) - 24 * m) / (3 * sqrt(m) - 2 / sqrt(m));
-    z2 = sqrt(m);
+    z2 = sqrt(m+2);
 
     cout << endl;
     cout << "z1 = " << z1 << endl;
