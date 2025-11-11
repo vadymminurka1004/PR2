@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+    cout << "4 корпус" << endl;
     double m;   // вхідний параметр
     double z1;  // результат обчислення першого виразу
     double z2;  // результат обчислення другого виразу
