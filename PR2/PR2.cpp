@@ -16,7 +16,7 @@ int main()
 
     cout << "m = ";
     cin >> m;
-    z1 = abs(3 * m - 2) / (3 * sqrt(m) - 2 / sqrt(m));
+    z1 = sqrt(pow(3 * m + 2, 2) - 24 * m) / (3 * sqrt(m) - 2 / sqrt(m));
     z2 = sqrt(m);
 
     cout << endl;
