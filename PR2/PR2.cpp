@@ -4,8 +4,7 @@
 // Лінійні програми
 // Варіант 177
 
-#include <iostream>
-#include <cmath>  
+#include <iostream>  
 using namespace std;
 
 int main()
